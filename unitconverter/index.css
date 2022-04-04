@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.container {
+
+width: 100%;
+height: 50vh;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    
+}
+.mainbody {
+    
+    width: 100%;
+    height: 50vh;
+    left: 89px;
+    top: 83px;
+    
+    background: #FBF7EE;
+}
+input{
+    display: inline-block;
+    min-width: 50px;
+    min-height: 40px;
+    font-size: 20px;
+    font-style: oblique;
+}
+h1{
+    margin: 80px;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+    font-style: inherit;
+    text-decoration: underline;
+    padding: 10px;
+}
