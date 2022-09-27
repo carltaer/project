@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container input{
+    height: 42px;
+    width: 10%;
+    margin: 20px 10px;
+}
+.container .color-select{
+    height: 42px;
+    width: 60%;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container button{
+    height: 42px;
+    width: 30%;
+    margin-right: 10px;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+#color-set{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+#color1{
+    width: 20%;
+}
+#color2{
+    width: 20%;
+}
+#color3{
+    width: 20%;
+}
+#color4{
+    width: 20%;
+}
+#color5{
+    width: 20%;
+}
+
+#hex-set{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-between;
+}
+#hex1{
+    width: 20%;
+}
+#hex2{
+    width: 20%;
+}
+#hex3{
+    width: 20%;
+}
+#hex4{
+    width: 20%;
+}
+#hex5{
+    width: 20%;
+}
+
+button{
+    cursor: pointer;
+}
