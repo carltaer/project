@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.my-colors{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.my-color{
+    width: 10%;
+    height: 10%;
+}
